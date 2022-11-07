@@ -2,8 +2,8 @@
 Check OS properties  using ``` lsb_release -a ``` or just cat ``` cat /etc/os-release ``` for yours.
 ###Tested on ``` 6.0.0-2parrot1-amd64 ```
 
-## Confirm ```tcl``` and ```tclx8.6``` packages are installed 
-## For tcl* related packages install using
+## Confirm that ```tcl``` and ```tclx8.6``` packages are installed 
+## For tcl* related packages, install using:
 ```
 $ sudo apt install tcl* -y
 ```
@@ -23,4 +23,4 @@ $ source /usr/local/Modules/init/bash
 ## All set 
 ## sanity check ```[ OK ] ```
 ## module check ```[ Ok ] ```
-use module manual for ```usage```
+use module's man page for ```usage```
